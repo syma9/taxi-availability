@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css"/>
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+	<link rel="stylesheet" href="http://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
+	<link rel="stylesheet" href="http://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+	<script src="http://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Taxi Availability in Singapore</title>
+
+  </head>
+
+  <body>
+   <div id="maintext">
+      <div id="h1">Real-time Taxi Availability</div>
+      <div id="br"></div>
+      <div id="br"></div>
+      <div id="taxi-title">Total number of available taxis</div>
+      <div id="taxi-count"><br></div>
+      <div id="br"></div>
+      <div id="datetime-title">Last updated</div>
+      <div id="date-count"><br></div>
+      <div id="time-count"><br></div>
+      <div id="br"></div>
+      <div id="br"></div>
+	  <div id="sub">Spatial distribution of all taxis currently available in Singapore, excluding busy and hired ones. See API access for the official data from data.gov.sg  <a href="https://data.gov.sg/dataset/taxi-availability" target="_blank">HERE</a></div>
+      <div id="br"></div>
+	  <div id="br"></div>
+	  <div id="sub">Siyuan Ma<br> 2018</div>
+    </div>
+
+    <div id="map"></div>
+
+
+  </body>
+
+  <script src="main.js"></script>
+
+</html>

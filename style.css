@@ -1,0 +1,83 @@
+html {
+	height: 100%
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	position: relative;
+}
+
+a:link, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #8be0d2;
+}
+
+#map{
+	height: 100%;
+}
+
+#maintext{
+	z-index: 30;
+	position: fixed;
+	height: 100%;
+	width: 275px;
+	text-align: left;
+	background-color: rgba(0,110,250,0.3);
+	float: left;
+	left: 60;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#h1{
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	font-family: nevis, sans-serif;
+}
+
+p{
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	font-family: nevis, sans-serif;
+}
+
+#sub{
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+	font-family: nevis, sans-serif;
+}
+
+#taxi-title, #datetime-title{
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+	font-family: nevis, sans-serif;
+}
+
+#taxi-count{
+	font-size: 48px;
+	color: rgba(250,250,250,1);
+	font-family: nevis, sans-serif;
+}
+
+#date-count, #time-count{
+	font-size: 24px;
+	color: rgba(250,250,250,1);
+	font-family: nevis, sans-serif;
+}
+
+
+#br{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@font-face { font-family: nevis; src: url('font/nevis.ttf'); }  
+
