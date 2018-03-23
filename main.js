@@ -3,7 +3,7 @@ var map = L.map('map').setView([1.35, 103.83], 13);
 var hexLayer;
 window.toggle = false;
 
-L.tileLayer('https://maps-{s}.onemap.sg/v3/Grey/{z}/{x}/{y}.png', {
+L.tileLayer('https://maps-a.onemap.sg/v3/Grey/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://docs.onemap.sg/">OneMap</a>',
     maxZoom: 15,
     minZoom: 12,
