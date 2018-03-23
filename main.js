@@ -3,7 +3,7 @@ var map = L.map('map').setView([1.35, 103.83], 13);
 var hexLayer;
 window.toggle = false;
 
-L.tileLayer('http://maps-{s}.onemap.sg/v2/Grey/{z}/{x}/{y}.png', {
+L.tileLayer('https://maps-{s}.onemap.sg/v3/Grey/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://docs.onemap.sg/">OneMap</a>',
     maxZoom: 15,
     minZoom: 12,
@@ -35,7 +35,7 @@ function result(data) {
         iconUrl: 'marker.png',
         iconSize: [10, 10], // size of the icon
         });
-	
+
 		var markers = L.markerClusterGroup({ chunkedLoading: true });
 
 		var markerList = [];
@@ -69,5 +69,3 @@ function result(data) {
 
 
 };
-
-
